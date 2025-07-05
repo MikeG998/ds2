@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'IBM Plex Sans', 'Montserrat', system-ui, Arial, sans-serif;
+  }
+
+  body {
+    @apply bg-white text-graphite;
+    font-family: 'IBM Plex Sans', 'Montserrat', system-ui, Arial, sans-serif;
+  }
+
+  /* Dark mode styles */
+  .dark body {
+    @apply bg-body-bg-dark text-body-dark;
+  }
+
+  /* Typography defaults */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', system-ui, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    font-family: 'IBM Plex Sans', 'Montserrat', system-ui, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+} 
