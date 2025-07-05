@@ -7,14 +7,10 @@ interface HeroSectionProps {
 export function HeroSection({ children }: HeroSectionProps) {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Brand Gradient: Process Cyan to Electric Teal at 135° */}
-      <div className="absolute inset-0" style={{
-        background: 'linear-gradient(135deg, #24D1C6 0%, #1BA3A0 100%)',
-      }} />
-      {/* 30% Gunmetal overlay for contrast */}
-      <div className="absolute inset-0" style={{
-        background: 'rgba(24, 26, 27, 0.3)',
-      }} />
+      {/* Brand Gradient: Process Cyan to Electric Teal */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#10B8EC] to-[#24D1C6]" />
+      {/* Optional: Subtle white vignette overlay for depth */}
+      <div className="absolute inset-0 bg-white/10 pointer-events-none" />
       <section className="relative z-10 w-full">
         <div className="container mx-auto px-4 py-24 grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: Headline & CTA */}
