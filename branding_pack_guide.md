@@ -45,7 +45,6 @@
   - Up to 8–10 total, to allow visual interest and hierarchy (never visually overwhelming)
   - All accents should be bold and used with intent, never randomly
   - Gradients permitted *only* for large-section backgrounds, never buttons or text
-  - Every page/block must "pop" visually with at least two accents or one pop colour
 - **Accessibility:**
   - All UI and body text must pass high contrast
 
@@ -74,7 +73,7 @@
   - No rounded/playful/serif/script fonts—only geometric sans-serifs.
   - Use weight, size, and spacing—not colour—for hierarchy and clarity.
   - Test legibility at all sizes, including mobile and small headers.
-  - All text must pass accessibility and contrast standards (#181A1B or #2D333A on #FFF).
+  - All text must pass accessibility and contrast standards.
 
 - **Usage Examples:**
 

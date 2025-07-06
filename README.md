@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DealSurge.co
 
-## Getting Started
+Lead generation, engineered for growth.
 
-First, run the development server:
+This is the DealSurge.co marketing site, built with Next.js, TypeScript, Tailwind CSS, shadcn/ui, and Radix UI. It features a modular, brand-driven design system and is ready for rapid iteration and deployment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- Next.js 14+ with App Router
+- TypeScript
+- Tailwind CSS (customized to brand palette)
+- shadcn/ui & Radix UI for accessible, adaptable components
+- Lucide icons
+- Google Fonts: Montserrat & IBM Plex Sans
+- Fully responsive, accessible, and SEO-ready
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting Started (Local Development)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-## Learn More
+3. **Open your browser:**
+   Visit [http://localhost:3000](http://localhost:3000) to view the site.
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
+- `src/components/` — All UI sections and reusable components
+- `src/app/` — Next.js app directory (pages, layout, etc.)
+- `src/styles/` — Global styles and Tailwind config
+- `src/design-tokens.ts` — Brand color and typography tokens
+- `branding_pack_guide.md` — Brand guidelines reference
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
+This project is ready to deploy on Vercel, Netlify, or any platform supporting Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© DealSurge.co. All rights reserved.
